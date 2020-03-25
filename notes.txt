@@ -1,0 +1,61 @@
+my_seq <- seq(5, 10, length=30)
+
+pi:10
+
+15:1
+
+seq_along(my_seq)
+seq(along.with = my_seq)
+
+rep(c(0, 1, 2),each=10) vs times = 10
+
+seleection
+x[x > 0]
+if there is NA in x, it will be selected
+
+R does not prevent us from subsetting values outside a vector's range'
+
+paste(1:3,c("X", "Y", "Z"), sep = "")
+"1X" "2Y" "3Z"
+
+table(plants$Active_Growth_Period)
+# gives summary table of one column
+
+
+summarize(a = mean(a))
+gather 
+
+cut function 
+
+
+a+: one or more a 
+a*: zero or more a
+
+\\ for searching punctuation marks
+\\d \\w \\s (space) vs capitalized D,W,S
+a{1,2}: a or aa
+(aa){1,2}: aa or aaaa
+
+sub("[Ii]", "1", c("Hawaii", "Illinois", "Kentucky"))
+[1] "Hawa1i"   "1llinois" "Kentucky"
+
+
+grep("[Ii]", c("Hawaii", "Illinois", "Kentucky"))
+[1] 1 2
+
+strsplit returns a list
+> strsplit(two_s, "ss")
+[[1]]
+[1] "Ma"        "achusetts"
+
+[[2]]
+[1] "Mi"   "i"    "ippi"
+
+[[3]]
+[1] "Mi"   "ouri"
+
+[[4]]
+[1] "Tenne" "ee"   
+
+str_pad("Thai", width = 16, side = "right", pad = "-")
+[1] "Thai------------"
