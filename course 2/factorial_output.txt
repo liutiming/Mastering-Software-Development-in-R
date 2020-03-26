@@ -1,0 +1,6 @@
+Unit: microseconds
+                         expr      min        lq       mean     median        uq       max neval
+   map_dbl(a, factorial_func) 1439.617  1470.481  1574.9810  1498.7770  1535.523  5570.986   100
+   map_dbl(a, factorial_loop)  182.126   187.608   196.7894   191.7105   197.703   275.517   100
+ map_dbl(a, factorial_reduce) 9948.962 10206.757 11546.7855 10707.2660 11717.876 19314.054   100
+    map_dbl(a, factorial_mem) 4138.894  4280.593  4799.5594  4453.6845  4620.390 11843.467   100

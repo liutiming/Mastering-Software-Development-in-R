@@ -1,0 +1,16 @@
+map_if(c(1, 2, 3, 4), is_even, square)
+# function does not have ()
+
+how to iteratively apply functions to first, second and then second third element of a vector
+reduce
+
+every(random_ints, function(x){x < 100})
+some
+
+gt_10 <- partial(gt, b = 10)
+
+> walk(mark_antony, message)
+Friends, Romans, countrymen,
+lend me your ears;
+I come to bury Caesar,
+not to praise him.
